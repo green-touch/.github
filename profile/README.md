@@ -75,4 +75,4 @@ Caring은 독거 어르신을 위한 스마트 돌봄 환경을 구축하기 위
 ### Caring 구성원
 |  🔥PM  | 🎨Design |  💻 Server  | 📱React Native(UI) | 📱React Native(Module) |
 |:-----:|:--------:|:-----------:|:-------------:|:--------------:|
-| 박준혁 |  이승연  |   이정한    |    박진하     |     조나은     |
+| <a href="https://github.com/jpark0506">박준혁</a> |  <a href="https://github.com/dumoyeon">이승연</a>  |   <a href="https://github.com/Han-Jeong">이정한</a>    |    <a href="https://github.com/jjiinaaa">박진하</a>     |     <a href="https://github.com/jonaeunnn">조나은</a>     |
