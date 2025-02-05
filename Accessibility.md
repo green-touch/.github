@@ -7,40 +7,41 @@
 [‘W3C 웹 접근성 지침’](https://www.w3.org/WAI/standards-guidelines/ko)
 
 ### 접근성 검사기 종류
-    - 특징
-        - 대략적 문제점과 종류 파악
-        - 웹 접근성 양적 측정
-        - 신속성, 편리성, 저비용, 보편화 등등 장점
-        - 한국형 웹 콘텐츠 접근성 지침 2.0 기준
-        - 전문 검사와 차이점이 매우 많아, 못 찾아내는 것이 많음.
-    - [K-WAH 4.0](https://www.wa.or.kr/board/view.asp?sn=10025&page=1&search=&SearchString=&BoardID=0004&cate=)
-        - 기존 프로그램들과 다르게 웹 페이지들을 하나씩 평가하지 않고 웹 페이지들 전체를 통합하여 평가
-        - 각 웹 페이지들을 구체적으로 살펴볼 수 없어 어느 웹 페이지의 특정 기능의 문제점은 파악하기 어려움
-        
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2f62e73-f32c-4af7-a7d2-7705e9f9082c/86ffdd42-77ea-43c7-a868-880533997dfc/image.png)
-        
-    - A-Prompt 평가도구
-    - Boddy
-    - LIFE
+- 특징
+    - 대략적 문제점과 종류 파악
+    - 웹 접근성 양적 측정
+    - 신속성, 편리성, 저비용, 보편화 등등 장점
+    - 한국형 웹 콘텐츠 접근성 지침 2.0 기준
+    - 전문 검사와 차이점이 매우 많아, 못 찾아내는 것이 많음.
+- [K-WAH 4.0](https://www.wa.or.kr/board/view.asp?sn=10025&page=1&search=&SearchString=&BoardID=0004&cate=)
+    - 기존 프로그램들과 다르게 웹 페이지들을 하나씩 평가하지 않고 웹 페이지들 전체를 통합하여 평가
+    - 각 웹 페이지들을 구체적으로 살펴볼 수 없어 어느 웹 페이지의 특정 기능의 문제점은 파악하기 어려움
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2f62e73-f32c-4af7-a7d2-7705e9f9082c/67da7f92-d4f3-47b9-b4ba-d1ba3bac9c08/image.png)
+   ![K-WAH 4.0 평가 항목](https://github.com/user-attachments/assets/fda3a7a9-4c44-4518-b358-8c990496133a)
+
     
-### 전문 검사
+- A-Prompt 평가도구
+- Boddy
+- LIFE
+  
+![정보 접근성 평가를 위한 자동화 도구](https://github.com/user-attachments/assets/934ea840-c67a-4c26-bfb5-051ffc256263)
+
     
-    - 특징
-        - 웹접근성 정도, 상세 내용 분석 파악 용이
-        - 웹접근성연구소 참고
-    - [오픈왁스 사용법](https://blog.naver.com/chae-yul/221187023938)
-        - 평가 항목을 일일이 육안으로 확인하여 질적 측면 측정
-        - 크롬에 표기되지 않는 항목들이 존재함 ⇒ 인터넷 익스플로어 사용하여 구글 크롬에서 평가하는 동일한 웹 페이지를 대조하며 평가 필요.
-    - **명도 측정기 : Colour Contrast Analyser 2.2**
-        - 주 메뉴를 선택할 시 나타나는 모든 서브메뉴의 명도 대비 지침 기준 : **4.5: 1**
-        - **명도 대비 중요!**
-        - 배경과 콘텐츠들, 텍스트들, **배경 간에도**
-    - [웹표준 문법검사 W3C Validator](https://validator.w3.org/)
-    - 화면 낭독기, HPR 스크린리더
-        - 시각장애인 위주
-        - TAP 키로 넘어가는지
+### 전문 검사   
+- 특징
+    - 웹접근성 정도, 상세 내용 분석 파악 용이
+    - 웹접근성연구소 참고
+- [오픈왁스 사용법](https://blog.naver.com/chae-yul/221187023938)
+    - 평가 항목을 일일이 육안으로 확인하여 질적 측면 측정
+    - 크롬에 표기되지 않는 항목들이 존재함 ⇒ 인터넷 익스플로어 사용하여 구글 크롬에서 평가하는 동일한 웹 페이지를 대조하며 평가 필요.
+- **명도 측정기 : Colour Contrast Analyser 2.2**
+    - 주 메뉴를 선택할 시 나타나는 모든 서브메뉴의 명도 대비 지침 기준 : **4.5: 1**
+    - **명도 대비 중요!**
+    - 배경과 콘텐츠들, 텍스트들, **배경 간에도**
+- [웹표준 문법검사 W3C Validator](https://validator.w3.org/)
+- 화면 낭독기, HPR 스크린리더
+    - 시각장애인 위주
+    - TAP 키로 넘어가는지
 - 접근성 오류율 : 5% 목표
 
 ## 공통
@@ -62,8 +63,8 @@
 - [IR 기법 사용](https://nuli.navercorp.com/guideline/s01/g01)
 - 반드시 alt 는 있어야 함. 의미가 없으면 비워놓는 형태
 - 버튼, 이미지, 레이블은 스크린리더에서 태그만 적절히 사용 시 읽어주기에 중복으로 텍스트 내용 포함 X
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2f62e73-f32c-4af7-a7d2-7705e9f9082c/57cecb33-c92d-412a-b405-6d9e1e412868/image.png)
+  
+![은행 어플 접근성 개선](https://github.com/user-attachments/assets/fdebaed3-c894-41d8-9b47-b39b97b5c7af)
     
 - 자세한 설명 제공
     - 내용의 명확성, 짧게 핵심만 **(60자 이내)**
@@ -123,8 +124,7 @@
 - 선택된 객체는 초점이 적용되었다고 하고 , 초점은 화면상에서 **테두리나 하이라이트로 표시**하는 것이 바람직
 
 - **구현 방법** : 안드로이드에서 제공하는 **기본 사용자 인턴페이스 컴포넌트**(Native UI Component)에서 IOS와 달리 대부분의 기본값이 비활성화 되어 제공된다. 초점 이동이 필요한 UI 경우에는 반드시 `focusable` 속성을 활성화 `= true`시켜야 함
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2f62e73-f32c-4af7-a7d2-7705e9f9082c/d886f2e9-99c2-43dd-a9c3-36a3e6e4722a/image.png)
+    ![접근성 초점 설정 방법](https://github.com/user-attachments/assets/c4a80860-5d1b-4259-85e1-8727c0753bb4)
     
     버튼, 입력 필드, 드롭다운 등 각 요소의 역할을 명확하게 지정해야 하며, 복잡한 UI 구성 요소는 `ARIA 속성(예: aria-label, aria-labelledby, aria-describedby)`을 사용해 스크린 리더가 콘텐츠를 적절히 설명
     
@@ -160,9 +160,7 @@
 
 - 주의점
     - 가장 잘 지켜진 웹 접근성 요건 10위
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2f62e73-f32c-4af7-a7d2-7705e9f9082c/e7ef6511-3016-432a-9b29-7eb194d674ad/image.png)
+    ![잘 지켜진 웹 접근성)](https://github.com/user-attachments/assets/6a8e3742-de93-4beb-be8a-557ae94c0338)
     
     - 가장 잘 지켜지지 않은 웹 접근성 요건 10위
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2f62e73-f32c-4af7-a7d2-7705e9f9082c/7f6664ce-9e31-4b4f-8071-8eb351891a1c/image.png)
+    ![잘 지켜지지 않은 웹 접근성](https://github.com/user-attachments/assets/24ac28fa-c1d8-4982-93bb-926cad71dc05)
